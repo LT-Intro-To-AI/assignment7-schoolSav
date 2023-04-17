@@ -167,7 +167,7 @@ class NeuralNet:
         learning_rate: float = 0.5,
         momentum_factor: float = 0.1,
         iters: int = 1000,
-        print_interval: int = 100,
+        print_interval: int = 50,
     ) -> None:
         """Carries out a training cycle on the neural net
 
